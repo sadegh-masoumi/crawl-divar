@@ -2,8 +2,7 @@ import scrapy
 
 url = 'https://divar.ir/v/-/{token}'
 
-token_file = open(
-    '/Users/sadegh/Desktop/scrapy/divar/tokens.txt', 'r', encoding='utf8')
+token_file = open('...', 'r', encoding='utf8')
 tokens = token_file.read().split(',')
 token_file.close()
 
